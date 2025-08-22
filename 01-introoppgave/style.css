@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.overskrift { grid-area: overskrift; }
+.meny { grid-area: meny; }
+.paragraf { grid-area: paragraf; }
+.media { grid-area: media; }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    'overskrift overskrift overskrift overskrift overskrift'
+    'meny meny meny meny meny'
+    'paragraf paragraf paragraf paragraf paragraf'
+    'media media media media media';
+}
+
+
+.flytL {
+    float: left;
+}
+
+.meny{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(246, 245, 241) ;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(50, 46, 54);
+}
+
+/* #annenFarge{
+    color: blue;
+} */
+
+/* .farge{
+    background-color: brown;
+} */
+
+.mb{ /* meny boks */
+    background-color: lemonchiffon;
+    border: solid lemonchiffon 0.5rem;
+    border-radius: 0.5rem;
+/* få link til å se ut som tekst */
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}

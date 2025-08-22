@@ -1,0 +1,66 @@
+#Innholdsliste
+
+HTML
+---------S
+Kole sammen dokument
+    8-10
+Grid-container
+    13/15/24 osv..
+Skrift
+    Overskrift
+        16
+    Paragraf
+        27
+Id/Class
+    Class
+        13
+    ID
+        32
+Link 
+    Tekst
+        21
+    Bilde
+        35S
+    Vidio 
+        -
+    Annet dokument
+        21
+Intrigert
+    Vidio
+        37
+    Maps/kart
+        -
+
+
+CSS
+------------
+Farge
+    bakgrunn
+    40
+    tekst farge
+    47
+Id
+    50
+Class
+    27
+body
+    39
+
+Grid Container
+    1-19
+Flex
+    25-29
+flyt
+    21-23
+Utsene
+    Link
+        63-65
+    Boks
+        59-61
+
+
+JAVA
+
+```javascript
+
+```
