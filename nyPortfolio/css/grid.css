@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+
+#top { grid-area: top; } 
+#meny { grid-area: meny; } 
+#endreFarge { grid-area: endreFarge; } 
+#omMeg { grid-area: omMeg;} 
+#koding { grid-area: koding; } 
+#media { grid-area: media; } 
+#animasjon { grid-area: animasjon; } 
+#skole { grid-area: skole; }
+#bilde { grid-area: bilde; }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        'endreFarge endreFarge endreFarge endreFarge endreFarge endreFarge endreFarge endreFarge endreFarge endreFarge endreFarge endreFarge endreFarge'
+        'top top top top top top top top top top top top top'
+        'meny meny meny meny meny meny meny meny meny meny meny meny meny'
+        'omMeg omMeg omMeg omMeg omMeg omMeg omMeg omMeg omMeg omMeg omMeg omMeg omMeg'
+        'koding koding koding koding koding koding koding koding koding koding koding koding koding'
+        'media media media media media media media media media media media media media'
+        'animasjon animasjon animasjon animasjon animasjon animasjon animasjon animasjon animasjon animasjon animasjon animasjon animasjon'
+        'skole skole skole skole skole skole skole skole skole skole skole skole skole'; 
+}
+
+
+.grid-container > div { 
+    font-size: 1.5rem;
+}
+
+/* grunnleggende komandoer. Vet hvor de er hvis jeg glømmer hvordan å skrive de */
+.flytL {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.flytR {
+    float: right;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
