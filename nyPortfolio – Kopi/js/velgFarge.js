@@ -29,85 +29,85 @@ function defult() { //if farge 1 og 2 er av skal defult være på.
     }
 }
 
-function farge() {
-    if (SHtOgF==false) {
-        defult()
-    } else {
-    document.body.style.backgroundColor = "#FFFFFF"
-    document.body.style.color = "#000000"
-    sendSvar.style.backgroundColor = "#787878"
-    }
-    if (LogStOgF==false) {
-        defult()
-    } else {
-        document.body.style.backgroundColor = "#e1dee9"
-        document.body.style.color = "#1f1a29"
-        sendSvar.style.backgroundColor = "#B6A6CA"
+// function farge() {
+//     if (SHtOgF==false) {
+//         defult()
+//     } else {
+//     document.body.style.backgroundColor = "#FFFFFF"
+//     document.body.style.color = "#000000"
+//     sendSvar.style.backgroundColor = "#787878"
+//     }
+//     if (LogStOgF==false) {
+//         defult()
+//     } else {
+//         document.body.style.backgroundColor = "#e1dee9"
+//         document.body.style.color = "#1f1a29"
+//         sendSvar.style.backgroundColor = "#B6A6CA"
         
-    }
-    if (MMtOgF==false) {
-        defult()
-    } else {
-        document.body.style.backgroundColor = "#033F63"
-        document.body.style.color = "#c1d9c4"
-        sendSvar.style.backgroundColor = "#787878"
-    }
-    if (KMMtOgF==false) {
-        defult()
-    } else {
-        document.body.style.backgroundColor = "#000000"
-        document.body.style.color = "#aeaeae"
-        sendSvar.style.backgroundColor = "#787878"
-    }
-}
+//     }
+//     if (MMtOgF==false) {
+//         defult()
+//     } else {
+//         document.body.style.backgroundColor = "#033F63"
+//         document.body.style.color = "#c1d9c4"
+//         sendSvar.style.backgroundColor = "#787878"
+//     }
+//     if (KMMtOgF==false) {
+//         defult()
+//     } else {
+//         document.body.style.backgroundColor = "#000000"
+//         document.body.style.color = "#aeaeae"
+//         sendSvar.style.backgroundColor = "#787878"
+//     }
+// }
 
 
-function velgSH() {
+// function velgSH() {
 
-    if (SHtOgF==false) {
-        SHtOgF=true
-        LogStOgF=false
-        MMtOgF=false
-        KMMtOgF=false
-    } else {
-        SHtOgF=false
-    }
-    farge()
-}
+//     if (SHtOgF==false) {
+//         SHtOgF=true
+//         LogStOgF=false
+//         MMtOgF=false
+//         KMMtOgF=false
+//     } else {
+//         SHtOgF=false
+//     }
+//     farge()
+// }
 
-function velgLogS() {
-    if (LogStOgF==false) {
-        LogStOgF=true
-        SHtOgF=false
-        MMtOgF=false
-        KMMtOgF=false
-    } else {
-        LogStOgF=false
-    }
-    farge()
-}
+// function velgLogS() {
+//     if (LogStOgF==false) {
+//         LogStOgF=true
+//         SHtOgF=false
+//         MMtOgF=false
+//         KMMtOgF=false
+//     } else {
+//         LogStOgF=false
+//     }
+//     farge()
+// }
 
-function velgMM() {
-    if (MMtOgF==false) {
-        MMtOgF=true
-        SHtOgF=false
-        LogStOgF=false
-        KMMtOgF=false
-    } else {
-        MMtOgF=false
-    }
-    farge()
-}
-function velgKMM() {
-    if (KMMtOgF==false) {
-        KMMtOgF=true
-        SHtOgF=false
-        LogStOgF=false
-        MMtOgF=false
-    } else {
-        KMMtOgF=false
-    }
-    farge()
-}
-//svaralternativ på quiz
+// function velgMM() {
+//     if (MMtOgF==false) {
+//         MMtOgF=true
+//         SHtOgF=false
+//         LogStOgF=false
+//         KMMtOgF=false
+//     } else {
+//         MMtOgF=false
+//     }
+//     farge()
+// }
+// function velgKMM() {
+//     if (KMMtOgF==false) {
+//         KMMtOgF=true
+//         SHtOgF=false
+//         LogStOgF=false
+//         MMtOgF=false
+//     } else {
+//         KMMtOgF=false
+//     }
+//     farge()
+// }
+// //svaralternativ på quiz
 

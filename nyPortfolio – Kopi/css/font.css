@@ -1,0 +1,28 @@
+.bonheur-royale-regular { /* Cursiv for navnet */
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+#o-port{ /* overskrift portfolio */
+  font-size: 10rem ;
+  padding-left:1rem ;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#o-navn{/* overskrift navn */
+  padding-left:1rem ;
+  font-size: 4rem;
+
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
