@@ -8,6 +8,7 @@ a{
     text-decoration: none;
 }
 
+
 #top{
     background: linear-gradient(#c48ab1, #d59bbb, #e6bfd8, #fff4fb);
 }
@@ -37,8 +38,9 @@ a{
     align-items: center;
 }
 
-#logo{
+
+/* #logo{
     float: right;
     margin-top: 15rem ;
     margin-right: 10rem;
-}
+} */

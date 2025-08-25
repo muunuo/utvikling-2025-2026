@@ -1,14 +1,42 @@
-/* .cookie-regular {
-    font-family: "Cookie", serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
+/* 
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
 
-#overskrift{
-    font-size: 5rem ;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+/* .qwitcher-grypen-regular {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.qwitcher-grypen-bold {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+
+
+#o-port{ /* overskrift portfolio */
+  font-size: 10rem ;
+  padding-left:1rem ;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#o-navn{/* overskrift navn */
+  padding-left:1rem ;
+  font-size: 4rem;
+
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
 
 a{
@@ -17,14 +45,15 @@ a{
 }
 
 #meny{
-  font-size: 2rem ;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding: 1rem;
   top: 0;
   position: sticky;
   list-style: none;
-  background-color: #fff4fb;
+
+  background-color: #c48ab1;
+  /* background-color: #fff4fb; */
 }
 
 #meny nav{/* fungerer bare når den er her */
