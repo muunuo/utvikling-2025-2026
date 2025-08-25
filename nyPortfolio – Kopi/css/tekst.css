@@ -1,22 +1,8 @@
-/* 
-.playfair-display-<uniquifier> {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
-/* .qwitcher-grypen-regular {
-  font-family: "Qwitcher Grypen", cursive;
+.bonheur-royale-regular { /* Cursiv for navnet */
+  font-family: "Bonheur Royale", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
-.qwitcher-grypen-bold {
-  font-family: "Qwitcher Grypen", cursive;
-  font-weight: 700;
-  font-style: normal;
-} */
 
 
 
@@ -24,19 +10,19 @@
   font-size: 10rem ;
   padding-left:1rem ;
 
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: weight;
-  font-style: normal;
+  font-style: normal; */
 }
 
 #o-navn{/* overskrift navn */
   padding-left:1rem ;
   font-size: 4rem;
 
-  font-family: "Qwitcher Grypen", cursive;
-  font-weight: 700;
-  font-style: normal;
+  /* font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal; */
 }
 
 a{
