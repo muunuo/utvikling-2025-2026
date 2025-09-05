@@ -1,0 +1,12 @@
+.fargeValg{
+    position: relative;
+    display: inline-block;
+}
+
+.valg{
+    display: none;
+}
+
+.fargeValg:hover .valg {
+    display: block;
+}

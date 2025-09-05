@@ -13,41 +13,41 @@
     <link rel="stylesheet" href="css/mobil.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/pynt.css">
+    <link rel="stylesheet" href="css/knapp.css">
     <script src="js/velgFarge.js" defer></script>
     <script src="js/lesMer.js" defer></script>
 </head>
 <body>
     <div class="grid-container">
 
-            <div id="top">
-                <h1 id="o-port">Portfolio</h1>
-                <h2 id="o-navn">Benedikte K. Forland</h2>
-                <button onclick="myFunction()">dark-mode</button>
-            </div>
-
-        <div id="meny">
-                <nav> <!-- linke til andre sidene -->
-                        <li><a href= "#top">Hjem</a></li>
-                        <li><a href="#koding">Koding</a></li>
-                        <li><a href="#media">Media</a></li>
-                        <li><a href="#animasjon">Animasjon</a></li>
-                        <li><a href="#skole">Skole</a></li>
-                </nav>
-
-                
+        <div id="top">
+            <h1 id="o-port">Portfolio</h1>
+            <h2 id="o-navn">Benedikte K. Forland</h2>
+            <button onclick="myFunction()">dark-mode</button>
         </div>
 
-        
-
-        <!-- <div id="endreFarge">
-            <p id="svartHvit">farge 1</p>
-            <p id="LillaOgSvart">farge 2</p>
-            <p id="klassiskMorkeModus">farge 3</p>
-            <p id="morkeModus">farge 4</p>
-        </div> -->
-
+        <div id="meny">
+            <nav> <!-- linke til andre sidene -->
+                <li><a href= "#top">Hjem</a></li>
+                <li><a href="#koding">Koding</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#animasjon">Animasjon</a></li>
+                <li><a href="#skole">Skole</a></li>
+            </nav>
+        </div>
 
         <div id="omMeg">
+            <div class="fargeValg">
+                <button class="fallNed">Velg Farge</button>
+                <ul class="valg">
+                    <li>
+                    <button onclick="">Mørkemodus</button>
+                    <button onclick="">Vanlig</button>
+                    <button onclick="">Høy Kontrast</button>
+                    </li>
+                </ul>
+            </div>
+
             <h2 class="underOverskrift">Om meg</h2>
             <img class="flytL" src="" width="200px" alt="Et bilde av meg (eieren av nettsiden). Brunt hår som er medium lengde. Et hårbånd som er grønt med gul/rød bånd i midten og perler på. I en tradisjonel norsk bunad (sotra bunad, hårbåndet er laget i sotra bunad stil).">
             <p class="tekst">
