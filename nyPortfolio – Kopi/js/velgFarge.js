@@ -1,32 +1,36 @@
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
 
-let SH = document.getElementById("svartHvit"); //hva siden til vanelig ser ut som
-let LogS = document.getElementById("LillaOgSvart"); //side som er optimal for de med dårlig syn
-let MM = document.getElementById("morkeModus");
-let KMM = document.getElementById("klassiskMorkeModus"); 
+// let SH = document.getElementById("svartHvit"); //hva siden til vanelig ser ut som
+// let LogS = document.getElementById("LillaOgSvart"); //side som er optimal for de med dårlig syn
+// let MM = document.getElementById("morkeModus");
+// let KMM = document.getElementById("klassiskMorkeModus"); 
 
-let vKnapp = document.getElementById("svarAlternativ1")
-let hKnapp = document.getElementById("svarAlternativ2")
-let sendSvar = document.getElementById("sendInnAlleSvar")
+// let vKnapp = document.getElementById("svarAlternativ1")
+// let hKnapp = document.getElementById("svarAlternativ2")
+// let sendSvar = document.getElementById("sendInnAlleSvar")
 
-let m = document.getElementById("meny")
+// let m = document.getElementById("meny")
 
-let SHtOgF = false; //navn: hva farge det er true eller false
-let LogStOgF = false;
-let MMtOgF = false;
-let KMMtOgF = false;
-defult()
+// let SHtOgF = false; //navn: hva farge det er true eller false
+// let LogStOgF = false;
+// let MMtOgF = false;
+// let KMMtOgF = false;
+// defult() 
 
-SH.addEventListener("click", velgSH);
-LogS.addEventListener("click", velgLogS);//gjør fargene til en knapp
-MM.addEventListener("click", velgMM);
-KMM.addEventListener("click", velgKMM);
+// SH.addEventListener("click", velgSH);
+// LogS.addEventListener("click", velgLogS);//gjør fargene til en knapp
+// MM.addEventListener("click", velgMM);
+// KMM.addEventListener("click", velgKMM);
 
 function defult() { //if farge 1 og 2 er av skal defult være på.
-    if (SHtOgF==false && LogStOgF==false && MMtOgF==false && KMMtOgF==false) {
-        document.body.style.backgroundColor = "#fff4fb"
-        document.body.style.color = "#98729d"
-        endreFarge.style.backgroundColor = "#c48ab1"
-    }
+    // if (SHtOgF==false && LogStOgF==false && MMtOgF==false && KMMtOgF==false) {
+    //     document.body.style.backgroundColor = "#fff4fb"
+    //     document.body.style.color = "#98729d"
+    //     endreFarge.style.backgroundColor = "#c48ab1"
+    // }
 }
 
 // function farge() {
@@ -109,5 +113,7 @@ function defult() { //if farge 1 og 2 er av skal defult være på.
 //     }
 //     farge()
 // }
-// //svaralternativ på quiz
+// //svaralternativ på q
+
+
 

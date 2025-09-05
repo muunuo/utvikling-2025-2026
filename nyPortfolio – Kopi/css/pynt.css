@@ -10,6 +10,15 @@ a{
     font-weight: bold;
 }
 
+body {
+  background-color: #fff4fb;
+  color: #2a0841;
+}
+
+.dark-mode {
+  background-color: #14050e;
+  color: #b6a5c1;
+}
 
 #top{
     background: linear-gradient(#c48ab1, #d59bbb, #e6bfd8, #fff4fb);
