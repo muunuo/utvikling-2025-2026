@@ -72,6 +72,8 @@ console.log("\nGammlinge her -->")
 // }
 // }
 
+
+//Ikke ferdig med dette.
 for (let index = 0; index < arrayPerson.length; index++) {
     if (arrayPerson[index].alder >= 25) {
     arrayPerson.slice
