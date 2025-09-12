@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form id="hjelp">
+            <label for="problem">Hva språk har du problem med?</label>
+            <select name="sprak" id="sprak">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="annet">Annet</option>
+            </select>
+
+            <label for="time">Tid (i minutter):</label>
+            <input type="number" id="tid" name="tid">
+
+            <label for="beskrivelse">Beskrivelse</label>
+            <textarea name="beskrivelse" id="beskriv" rows="10" placeholder="Beskriv kort hva problemet er..."></textarea>
+
+            <button type="submit" class="svar">Send</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,16 +1,19 @@
-let handleKurvEl = document.getElementById("handlekurv")
+let handlekurvEl = document.getElementById("handlekurv");
 
-let varerEl = document.getElementById("varer")
+let varerEl = document.getElementById("varer");
 
 let varer = [
-    {navn: "Gullerot", pris: 4.90, bilde: "gullerot.jpg" ,handlekurv: 0, },  
-    {navn: "Tomat", pris: 5.0, bilde: "tomat.jpg" ,handlekurv: 0, },  
-    {navn: "Agurk", pris: 2.40, bilde: "agurk.jpg" ,handlekurv: 0, },  
-]
+    {navn: "Gullerot", pris: 4.90, bilde: "gullerot.png" ,handlekurv: 0, },  
+    {navn: "Tomat", pris: 5.0, bilde: "tomat.png" ,handlekurv: 0, },  
+    {navn: "Agurk", pris: 2.40, bilde: "agurk.png" ,handlekurv: 0, },  
+    { navn: "Rødløk", pris: 8.30, bilde: "lok.png", handlekurv: 0 },
+    { navn: "Paprika", pris: 13.30, bilde: "paprika.png", handlekurv: 0 },
+    { navn: "Potet", pris: 3.90, bilde: "potet.png", handlekurv: 0 },
+];
 
-for (let index = 0; index < varer.length; index++) {
+for (let i = 0; i < varer.length; i++) {
     // lager en div til varen
-    var vareDiv = document.createElementI("div");
+    var vareDiv = document.createElement("div");
     vareDiv.className = "vare";
 
     // lager er overskrift for varen
@@ -19,7 +22,7 @@ for (let index = 0; index < varer.length; index++) {
 
     // viser et bilde av varen
     vareBilde = document.createElement("img");
-    vareBilde.src = "bilderEksempel/" + varer[i].bilde;
+    vareBilde.src = "../bilderEksempel/" + varer[i].bilde;
 
     // viser prisen på varen
     varePris = document.createElement("p")
@@ -33,7 +36,7 @@ for (let index = 0; index < varer.length; index++) {
 
     // alt går inn i diven
     vareDiv.appendChild(vareOverskrift);
-    vareDiv.appendChild(vareBild);
+    vareDiv.appendChild(vareBilde);
     vareDiv.appendChild(varePris);
     vareDiv.appendChild(vareKnapp);
 
@@ -42,11 +45,11 @@ for (let index = 0; index < varer.length; index++) {
 }
 
 // legger en vare i handlekurven
-function kjopVare() {
+function kjopVare(e) {
     
     var vareNummer = e.target.id;
 
-    varer[vareNummer].handleKurv++;
+    varer[vareNummer].handlekurv++;
 
     oppdaterHandlekurv();
 }
@@ -64,9 +67,9 @@ function oppdaterHandlekurv() {
 
             totalPris += varePris;
 
-            handleKurvEl.innerHTML += "Totalpris:" + totalPris.toFixed(2) + "kr.";
+            handlekurvEl.innerHTML += "<p> " + varer[i].handlekurv + " x " + varer[i].navn + " (" + varePris.toFixed(2) + " kr)" + "</p>";
         } 
         
     }
-    
+    handlekurvEl.innerHTML += "Totalpris:" + totalPris.toFixed(2) + "kr.";
 }
