@@ -1,0 +1,11 @@
+ul,li,a{
+    background-color: rgb(0, 0, 0);
+}
+
+#skole{
+    color: rgb(255, 205, 241);
+}
+
+#hjem{
+    color: rgb(205, 255, 244);
+}
